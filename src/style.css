@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0;
+  font-family: Inter, sans-Serif;
+  background-color: #282D35;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  padding: 30px 25px;
+  height: 90px;
+}
+
+.main-title{
+  color: #61DAFB;
+  margin-right: auto;
+  font-weight: 700;
+}
+
+.description {
+  color: #DEEBF8;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.main-title .description {
+  margin: 0;
+}
+
+.logo {
+  margin-right: 7px;
+}
+
+main {
+  padding: 57px 27px;
+  background-image: url('../public/images/react-bg.png');
+  background-repeat:no-repeat ;
+  background-position: right center;
+}
+
+.section-heading {
+  height: 41px;
+  font-size: 40px;
+  color: #FFFFFF;
+  letter-spacing: -5%;
+}
+
+.list-body{
+  color: #FFFFFF;
+  height: 190px;
+  margin-top: 46px;
+  max-width: 400px;
+}
+
+.list-body li {
+  height: 19px;
+  font-size: 16px;
+  line-height: 19px;
+  padding-block:10px ;
+}
+ .list-body li::marker {
+  height: 10px;
+  color: #61DAFB;
+  font-size: 1.4rem;
+ }
